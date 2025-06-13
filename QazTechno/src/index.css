@@ -1,0 +1,58 @@
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+@tailwind utilities; 
+@tailwind base;
+@tailwind components;
+
+
+
+
+:root{
+   color-scheme: #0D1117;
+    
+   overflow-x: hidden;
+
+   --border-radius: 0.5rem;
+   --transition-fast: 0.2s ease-in-out;
+}
+
+
+@layer components {
+  /* main btn */
+  .btn-primary {
+    @apply bg-[#005bff] text-white px-5 py-2 rounded-lg hover:bg-red-500 transition-colors;
+  }
+
+  /* Cart btn */
+  .btn-secondary {
+    @apply bg-white text-[#00B894] border border-[#00B894] px-5 py-2 rounded-lg hover:bg-[#e6f7f4] transition-colors;
+  }
+
+  /* main text  */
+  .section-title {
+    @apply text-2xl md:text-3xl font-semibold text-white mb-4;
+  }
+
+
+
+  /* Input */
+  .input-field {
+    @apply w-full px-4 py-2 rounded-md border border-[#1F2937] bg-[#0D1117] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00B894];
+  }
+
+  /* Контейнер */
+  .container-custom {
+    @apply max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+ 
+  /* Footer */
+  .footer {
+    @apply bg-[#101820] text-gray-300 py-8;
+  }
+
+ 
+}
