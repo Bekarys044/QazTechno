@@ -17,7 +17,7 @@ function App() {
    const [openTypes, setOpenTypes] = useState(false);
 
 
-    // location code
+    // location code 
   const [location, setLocation] = useState();
 
   const getLocation = async () => {
