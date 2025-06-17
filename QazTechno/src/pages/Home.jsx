@@ -1,8 +1,5 @@
 import { History, Car, Leaf, Baby, TvMinimal, Drill } from "lucide-react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-
 import { useCategories } from "../Server/GlobalApi";
 
 import Slider from "react-slick";
@@ -53,7 +50,7 @@ function Home() {
 
   return (
     <>
-      <div className=" container-custom mt-8 overflow-x-auto scrollbar-hide md:overflow-visible">
+      <div className="container-custom mt-8 overflow-x-auto scrollbar-hide md:overflow-visible">
         <div className="flex gap-4 flex-nowrap min-w-max md:justify-between md:flex-wrap">
           <div className="flex gap-2 items-center shrink-0">
             <History className="text-white" />
