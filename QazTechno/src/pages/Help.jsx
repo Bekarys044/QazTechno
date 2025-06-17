@@ -4,7 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 function Help() {
   return (
-    <div className="h-screen w-full px-4 pt-32">
+    <div className="h-screen w-full px-4 my-10  pt-20">
       <div className="mx-auto w-full max-w-lg divide-y divide-white/5 rounded-xl bg-white/5">
         <Disclosure as="div" className="p-6" defaultOpen={true}>
           <DisclosureButton className="group flex w-full items-center justify-between">

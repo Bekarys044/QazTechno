@@ -23,7 +23,8 @@
     "react-slick": "^0.30.3",
     "react-toastify": "^11.0.5",
     "router-react": "^0.0.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

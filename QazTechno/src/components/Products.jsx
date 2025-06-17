@@ -86,12 +86,12 @@ function Products() {
 
 
   return (
-    <div className="container-custom ">
+    <div className="container-custom">
 
       {
         filteredData?.length > 0 ? (
             <div className="flex flex-col justify-center items-center">
-              <div className="w-full max-w-screen-xl grid grid-cols-4 gap-7 ">
+              <div className="w-full max-w-screen-xl grid grid-cols-1  sm:grid-cols-2  md:grid-cols-4 gap-7 ">
                 {filteredData.slice((page - 1) * 8, page * 8).map((product) => (
                    <ProductCard key={product.id} product={product} />
                 ))}

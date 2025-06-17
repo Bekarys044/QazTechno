@@ -26,55 +26,56 @@ function Cart({location}) {
             My Cart({cartItems.length})
           </h1>
           <div>
-            <div className="mt-10 ">
-              {cartItems.map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="bg-gray-100 p-5 rounded-md flex items-center justify-between mt-3 wull"
-                  >
-                    <div className="flex items-center gap-4">
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        className="w-20 h-20"
-                      />
-                      <div className="w-[300px] line-clamp-3 ml-3">
-                        <h1>{item.title}</h1>
-                        <p className="text-red-500 font-semibold text-lg">
-                          ${item.price}
-                        </p>
-                      </div>
-                    </div>
+           <div className="mt-10">
+  {cartItems.map((item, index) => (
+    <div
+      key={index}
+      className="bg-gray-100 p-5 rounded-md flex flex-col md:flex-row items-center justify-between gap-4 mt-3"
+    >
+      {/* Image and title */}
+      <div className="flex items-center gap-4 w-full md:w-[50%]">
+        <img
+          src={item.image}
+          alt={item.title}
+          className="w-20 h-20 object-cover"
+        />
+        <div className="flex-1 line-clamp-2 md:line-clamp-3">
+          <h1 className="text-base font-semibold">{item.title}</h1>
+          <p className="text-red-500 font-semibold text-lg">${item.price}</p>
+        </div>
+      </div>
 
-                    <div className="bg-red-500 text-white  flex gap-4 p-2 rounded-md font-bold text-xl ">
-                      <button
-                        onClick={() => updateQuantity(item.id, "decrease")}
-                        className="cursor-pointer"
-                      >
-                        -
-                      </button>
-                      <span>{item.quantity}</span>
-                      <button
-                        onClick={() => updateQuantity(item.id, "increase")}
-                        className="cursor-pointer"
-                      >
-                        +
-                      </button>
-                    </div>
-                    <span
-                      onClick={() => delateItem(item.id)}
-                      className="bg-white/60 transition-all rounded-full p-3 hover:shadow-2xl"
-                    >
-                      <Trash2 className="text-red-500 text-2xl  cursor-pointer hover:text-red-600" />
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
+      {/* Quantity Control */}
+      <div className="bg-red-500 text-white flex justify-center items-center gap-4 px-4 py-2 rounded-md font-bold text-xl">
+        <button
+          onClick={() => updateQuantity(item.id, "decrease")}
+          className="cursor-pointer"
+        >
+          -
+        </button>
+        <span>{item.quantity}</span>
+        <button
+          onClick={() => updateQuantity(item.id, "increase")}
+          className="cursor-pointer"
+        >
+          +
+        </button>
+      </div>
+
+      {/* Delete Button */}
+      <span
+        onClick={() => delateItem(item.id)}
+        className="bg-white/60 transition-all rounded-full p-3 hover:shadow-2xl"
+      >
+        <Trash2 className="text-red-500 text-2xl cursor-pointer hover:text-red-600" />
+      </span>
+    </div>
+  ))}
+</div>
+
             
 
-            <div className="grid grid-cols-2 gap-20">
+            <div className="grid  grid-cols-1  md:grid-cols-2 gap-20">
               <div className="bg-gray-100 rounded-md p-7 mt-4 space-y-2">
                 <h1 className="text-gray-800 font-bold text-xl">
                   Delivery Info

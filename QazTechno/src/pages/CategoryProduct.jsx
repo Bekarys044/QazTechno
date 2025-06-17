@@ -49,7 +49,7 @@ function CategoryProduct() {
             <div className="flex justify-center mt-10 mb-10">
               <button
                 onClick={() => setShowAll(true)}
-                className="bg-gradient-to-r from-purple-600 to-red-500 text-white px-6 py-2 rounded-md hover:from-purple-700 hover:to-red-600 transition-all"
+                className="btn-secondary"
               >
                 All view
               </button>

@@ -15,7 +15,7 @@ function UserProductPage() {
       <h1 className="text-2xl text-white font-bold mb-4">Your New Product</h1>
       <AddProductForm onAdd={handleAddProduct} />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6 border">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
         {userProducts.map((item, index) => (
           <div
             key={index}

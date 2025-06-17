@@ -28,7 +28,7 @@
 
   /* Cart btn */
   .btn-secondary {
-    @apply bg-white text-[#00B894] border border-[#00B894] px-5 py-2 rounded-lg hover:bg-[#e6f7f4] transition-colors;
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:scale-105 shadow-lg transition;
   }
 
   /* main text  */
@@ -45,7 +45,7 @@
 
   /* Контейнер */
   .container-custom {
-    @apply max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8;
+    @apply   md:max-w-[100%]   lg:max-w-[90%] mx-auto    px-4 sm:px-6 lg:px-8;
   }
 
  
@@ -55,4 +55,15 @@
   }
 
  
+}
+
+
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
