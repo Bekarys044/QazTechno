@@ -16,9 +16,9 @@ export const aboutLinks = [
   { href: "#", text: "Ozon Brand" },
   { href: "#", text: "Legal Info" },
   { href: "#", text: "Media Info" },
-  { href: "#", text: "Ozon Russia" },
-  { href: "#", text: "Ozon Belarus" },
-  { href: "#", text: "Ozon Armenia" },
+  { href: "#", text: "QazTechno Russia" },
+  { href: "#", text: "QazTechno Belarus" },
+  { href: "#", text: "QazTechno Armenia" },
 ];
 
 export const earnWithOzonLinks = [
