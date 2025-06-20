@@ -11,7 +11,7 @@ export default {
         background: "#0D1117",      // Dark Navy
         block: "#FFFFFF",        
         hover: "#FFBE0B",           
-        footer: "#101820",          //footer
+        footer: "#101820",         
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

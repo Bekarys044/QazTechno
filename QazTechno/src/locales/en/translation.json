@@ -1,0 +1,130 @@
+{
+   "footer": {
+      "brand": "QazTechno",
+      "qr_message": "Point your camera and download the free QazTechno app.",
+      "store_alt": "store icon",
+      "marketplace": "Ozon Marketplace",
+      "earn_with_us": "Earn with Ozon",
+      "help": "Help",
+      "rights": "2024 - 2025 © \"QazTechno Marketplace Kazakhstan\". All rights reserved.",
+      "have_questions": "Have any questions?",
+      "about_ozon": "About Ozon",
+      "ozon_brand": "Ozon Brand",
+      "legal_info": "Legal Info",
+      "media_info": "Media Info",
+      "qaztechno_russia": "QazTechno Russia",
+      "qaztechno_belarus": "QazTechno Belarus",
+      "qaztechno_armenia": "QazTechno Armenia",
+      "become_seller": "Become a Seller",
+      "open_pickup": "Open Pickup Point",
+      "become_partner": "Become a Partner",
+      "how_to_order": "How to Order",
+      "payment": "Payment",
+      "delivery": "Delivery",
+      "pickup_locations": "Pickup Locations",
+      "returns": "Returns",
+      "contacts": "Contacts",
+      "security": "Security",
+      "data_processing": "Data Processing Terms",
+      "hotline": "Compliance Hotline"
+  }, 
+  "navbar": {
+     "add_address": "add address",
+     "types": "Types",
+     "search_placeholder": "Search from QazTechno",
+     "search_categories": "Search categories...",
+     "categories": "Categories",
+     "sign_in": "Sign in to account",
+     "cart": "Cart",
+     "become_seller": "Become a seller",
+     "mobile_app": "The mobile app",
+     "help": "Help"
+  },
+  "ProductCard":{
+     "installment": "Installment 0-0-6",
+     "add_to_cart": "Add to cart",
+     "discount": "-10%"
+  },
+  "Products":{
+     "error": "An error occurred while loading data.",
+     "not_found": "No products found.",
+     "loading": "Loading products..."
+  },
+  "Cart":{
+     "title": "My Cart({{count}})",
+     "installment": "Installment 0-0-6",
+     "delivery_info": "Delivery Info",
+     "full_name": "Full Name:",
+     "address": "Address:",
+     "state": "State:",
+     "postcode": "PostCode:",
+     "country": "Country:",
+     "number": "Number:",
+     "submit": "Submit",
+     "bill_details": "Bill Details",
+     "all_product_price": "All Product price",
+     "delivery_info_days": "Delivery in 15–20 days",
+     "reward": "Users are rewarded All 25 %",
+     "grand_total": "Grand total",
+     "apply_promo": "Apply Promo code",
+     "enter_code": "Enter code",
+     "apply": "Apply",
+     "checkout": "Proceed to Checkout",
+     "empty_cart": "Your cart is empty!",
+     "continue_shopping": "Continue Shopping"
+  },
+  "CategoryProduct":{
+     "back": "Back",
+     "all_view": "All view",
+     "loading": "Loading products..."
+  },
+  "Help":{
+     "faq_1_q": "How long does it take to receive my order after purchase?",
+     "faq_1_a": "We deliver orders within 15–20 business days. Delivery time may vary depending on your location.",
+   
+     "faq_2_q": "How much does shipping cost?",
+     "faq_2_a": "Shipping is free for orders over ₸15,000. For smaller orders, the fee is ₸1,000.",
+   
+     "faq_3_q": "Can I return a product if I don't like it?",
+     "faq_3_a": "Yes, you can return your order within 7 days of delivery. The product must be undamaged and in its original packaging.",
+   
+     "faq_4_q": "What payment methods do you accept?",
+     "faq_4_a": "We accept Kaspi, Halyk, bank cards, and cash on delivery.",
+   
+     "faq_5_q": "How can I track my order status?",
+     "faq_5_a": "You can track your order in the “My Orders” section.",
+   
+     "faq_6_q": "How do I use a promo code?",
+     "faq_6_a": "After adding items to your cart, enter your promo code in the “Apply Promo Code” section."
+  }, 
+  "Home":{
+      "installment": "Installment 0-0-6",
+      "kazakh_sellers": "Kazakh sellers",
+      "home_garden": "Home and Garden",
+      "home_appliances": "Home Appliances",
+      "construction_repair": "Construction and Repair",
+    
+      "filter_category": "Category",
+      "filter_brand": "Brand",
+      "filter_price": "Price Range",
+      "reset_filter": "Reset Filter"
+  },
+  "SingleProduct":{
+      "error": "Қате орын алды",
+      "not_found": "Өнім табылмады",
+      "brand_category": "{{brand}}/{{category}}/{{model}}",
+      "price_label": "Users are rewarded {{discount}}%",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to Cart"
+  },
+  "UserProductPage":{
+      "title": "Your New Product",
+      "installment": "Рассрочка 0-0-6",
+      "price_discount": "-10%",
+      "add_to_cart": "Add to cart",
+      "added_alert": "Added to cart"
+  }
+
+}
+
+  

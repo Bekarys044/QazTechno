@@ -4,6 +4,7 @@ import axios from "axios";
 import { ChevronLeft } from "lucide-react";
 import ProductListView from "../components/ProductListView";
 import Loading from "../assets/video/Loading4.webm";
+import { useTranslation } from "react-i18next";
 
 function CategoryProduct() {
   const [searchData, setSearchData] = useState([]);
@@ -11,10 +12,13 @@ function CategoryProduct() {
   const params = useParams();
   const category = params.category;
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const getFilterData = async () => {
     try {
-      const res = await axios.get(`https://fakestoreapi.in/api/products/category?type=${category}`);
+      const res = await axios.get(
+        `https://fakestoreapi.in/api/products/category?type=${category}`
+      );
       const data = res.data.products;
       setSearchData(data);
     } catch (error) {
@@ -22,12 +26,11 @@ function CategoryProduct() {
     }
   };
 
- useEffect(() => {
-  getFilterData();
-   window.scrollTo(0, 0);
- // eslint-disable-next-line react-hooks/exhaustive-deps
- }, [category]);
-
+  useEffect(() => {
+    getFilterData();
+    window.scrollTo(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [category]);
 
   return (
     <div className="container-custom mt-10">
@@ -38,7 +41,7 @@ function CategoryProduct() {
             className="btn-primary mb-6 flex gap-1 hover:bg-red-500 hover:scale-105 transition-all duration-300 ease-in-out"
           >
             <ChevronLeft />
-            Back
+            {t("CategoryProduct.back")}
           </button>
 
           {(showAll ? searchData : searchData.slice(0, 6)).map((product, index) => (
@@ -51,7 +54,7 @@ function CategoryProduct() {
                 onClick={() => setShowAll(true)}
                 className="btn-secondary"
               >
-                All view
+                {t("CategoryProduct.all_view")}
               </button>
             </div>
           )}

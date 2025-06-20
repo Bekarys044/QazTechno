@@ -1,40 +1,35 @@
 // navBar
 export const navItems = [
-  { label: "Become a seller", href: "/userproduct" },
-  { label: "The mobile app", href: "#" },
-  { label: "Help", href: "/Help" },
-  
+  { href: "/userproduct", labelKey: "navbar.become_seller" },
+  { href: "#",  labelKey: "navbar.mobile_app" },
+  { href: "/Help",  labelKey: "navbar.help"},
 ];
-
-
-
-
 
 // footer
 export const aboutLinks = [
-  { href: "#", text: "About Ozon" },
-  { href: "#", text: "Ozon Brand" },
-  { href: "#", text: "Legal Info" },
-  { href: "#", text: "Media Info" },
-  { href: "#", text: "QazTechno Russia" },
-  { href: "#", text: "QazTechno Belarus" },
-  { href: "#", text: "QazTechno Armenia" },
+  { href: "#", key: "footer.about_ozon" },
+  { href: "#", key: "footer.ozon_brand" },
+  { href: "#", key: "footer.legal_info" },
+  { href: "#", key: "footer.media_info" },
+  { href: "#", key: "footer.qaztechno_russia" },
+  { href: "#", key: "footer.qaztechno_belarus" },
+  { href: "#", key: "footer.qaztechno_armenia" },
 ];
 
 export const earnWithOzonLinks = [
-  { href: "#", text: "Become a Seller" },
-  { href: "#", text: "Open Pickup Point" },
-  { href: "#", text: "Become a Partner" },
+  { href: "#", key: "footer.become_seller" },
+  { href: "#", key: "footer.open_pickup" },
+  { href: "#", key: "footer.become_partner" },
 ];
 
 export const helpLinks = [
-  { href: "#", text: "How to Order" },
-  { href: "#", text: "Payment" },
-  { href: "#", text: "Delivery" },
-  { href: "#", text: "Pickup Locations" },
-  { href: "#", text: "Returns" },
-  { href: "#", text: "Contacts" },
-  { href: "#", text: "Security" },
-  { href: "#", text: "Data Processing Terms" },
-  { href: "#", text: "Compliance Hotline" },
+  { href: "#", key: "footer.how_to_order" },
+  { href: "#", key: "footer.payment" },
+  { href: "#", key: "footer.delivery" },
+  { href: "#", key: "footer.pickup_locations" },
+  { href: "#", key: "footer.returns" },
+  { href: "#", key: "footer.contacts" },
+  { href: "#", key: "footer.security" },
+  { href: "#", key: "footer.data_processing" },
+  { href: "#", key: "footer.hotline" },
 ];

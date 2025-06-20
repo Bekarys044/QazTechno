@@ -17,6 +17,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import './index.css'
 import App from './App.jsx'
+import './i18n'; 
+
 
 
 // Import your Publishable Key
