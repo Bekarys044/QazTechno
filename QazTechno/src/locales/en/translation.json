@@ -63,7 +63,7 @@
      "submit": "Submit",
      "bill_details": "Bill Details",
      "all_product_price": "All Product price",
-     "delivery_info_days": "Delivery in 15–20 days",
+     "delivery_info_days": "Delivery in 15-20 days",
      "reward": "Users are rewarded All 25 %",
      "grand_total": "Grand total",
      "apply_promo": "Apply Promo code",
@@ -80,7 +80,7 @@
   },
   "Help":{
      "faq_1_q": "How long does it take to receive my order after purchase?",
-     "faq_1_a": "We deliver orders within 15–20 business days. Delivery time may vary depending on your location.",
+     "faq_1_a": "We deliver orders within 15-20 business days. Delivery time may vary depending on your location.",
    
      "faq_2_q": "How much does shipping cost?",
      "faq_2_a": "Shipping is free for orders over ₸15,000. For smaller orders, the fee is ₸1,000.",
