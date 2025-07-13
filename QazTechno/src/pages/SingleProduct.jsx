@@ -16,6 +16,7 @@ function SingleProduct() {
   const [loading, setLoading] = useState();
   const [error, setError] = useState(null);
 
+
   const getSingleProduct = async () => {
     try {
       setLoading(true);
@@ -28,6 +29,7 @@ function SingleProduct() {
       setLoading(false);
     }
   };
+
 
   useEffect(() => {
     getSingleProduct();
@@ -72,12 +74,14 @@ function SingleProduct() {
               model: product.model || "N/A"
             })}
           </div>
+
           <p className="text-xl text-red-500 font-bold flex items-center gap-4">
             <span>${product.price}</span>
             <span className="bg-red-500 text-white p-2 rounded-full ">
               {t("SingleProduct.price_label", { discount: product.discount })}
             </span>
           </p>
+          
           <div className="text-gray-600">{product.description}</div>
           <div className="flex items-center gap-4">
             <label htmlFor="quantity" className="w-20 font-pop text-white">

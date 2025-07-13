@@ -98,7 +98,7 @@ function Home() {
         </Slider>
       </div>
 
-      {/* Grid Banners */}
+      {/*4 Banners */}
       <div className="mt-7 container-custom grid grid-cols-2 gap-4">
         {[Img1, Img2, Img3, Img4].map((img, i) => (
           <img key={i} src={img} className="rounded-md" />
@@ -165,7 +165,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Product Grid */}
+      {/* Product */}
       <Products />
 
       {/* Bottom Banner Grid */}
